@@ -27,6 +27,7 @@ const TaskList = props => {
     ));
     return (
       <div className="todo-list">
+        <p>Ingresa un valor o texto.</p>
         {list.length ? chk : ""}
        
         {list.length ? (
