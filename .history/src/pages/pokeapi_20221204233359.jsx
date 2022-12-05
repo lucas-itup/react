@@ -5,12 +5,12 @@ const pokeApi = () => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: 'Right',
+        alignItems: 'Right',
         height: '100vh'
       }}
     >
-      
+      <h1>POKE API</h1>
       <PokeAPI/>
     </div>
   );
